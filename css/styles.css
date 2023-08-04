@@ -11340,7 +11340,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .slides-container {
-  height: calc(100vh - 2rem);
+  height: calc(90vh - 8rem);
   width: 100%;
   display: flex;
   overflow: scroll;
@@ -11406,7 +11406,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 .slide:nth-child(4) {
   background-color: #da6f2b;
 }
-
+.slide:nth-child(5) {
+  background-color: #49b293;
+}
 
 footer {
   padding: 1em;
