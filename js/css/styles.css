@@ -11399,3 +11399,10 @@ body {
 .slide:nth-child(5) {
   background-color: #49b293;
 }
+.img-slider{
+  margin-left: 100px;
+  margin-right: auto;
+  width: 50%;
+  height: 70%;
+
+}

@@ -57,8 +57,13 @@ window.addEventListener('DOMContentLoaded', event => {
     const prevButton = document.getElementById("slide-arrow-prev");
     const nextButton = document.getElementById("slide-arrow-next");
     
+    const sliderimg = document.querySelector(".slider-img");
+
+
+
     nextButton.addEventListener("click", () => {
       const slideWidth = slide.clientWidth;
+      
       slidesContainer.scrollLeft += slideWidth;
     });
     
