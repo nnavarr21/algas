@@ -8028,6 +8028,15 @@ textarea.form-control-lg {
   border: none;
   -webkit-font-smoothing: antialiased;
 }
+
+.text-uppercase-contrast{
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #105169;
+  text-shadow: 0px 2px 3px #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
 .text-uppercase-border {
   text-transform: uppercase !important;
   -webkit-text-stroke: 1.5px var(--bs-black);
@@ -10869,6 +10878,16 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.page-section h2.section-heading, .page-section .section-heading.h2 contrast{
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #105169;
+  text-shadow: 0px 2px 3px #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
@@ -10948,7 +10967,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 7rem;
+    height: 5rem;
     transition: height 0.3s ease-in-out;
     filter: invert(42%) brightness(10000%) contrast(119%) drop-shadow(10px 10px 10px rgb(0 0 0 / 0.4));
     text-shadow: 0px 2px 3px black;
