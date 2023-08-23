@@ -3825,7 +3825,7 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  color: rgb(212, 212, 212);
   background-color: transparent;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
@@ -11071,7 +11071,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #105169;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11154,7 +11154,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   text-shadow: 0px 2px 3px black;
-  background-image: url("../assets/img/dimmed-background.png");
+  background-image: url("../assets/img/dimmed-background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
