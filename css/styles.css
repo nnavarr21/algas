@@ -8273,6 +8273,12 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+.text-muted-2 {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  text-align: left;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -11608,6 +11614,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-right: auto;
 }
 .responsive-img {
-  max-width: 100%;
-  height: 100%;
+  max-width: 90%;
+  margin-left: 5%;
+  height: 90%;
 overflow: hidden;}
