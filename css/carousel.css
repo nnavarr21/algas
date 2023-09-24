@@ -10,31 +10,20 @@ body { font-family: sans-serif; }
 
 .carousel img {
   display: block;
-  height: 50%;
+  height: 700px;
 }
 
 .carousel-cell {
-  height: 50%;
+  height: 700px;
 }
 
 @media (max-width: 768px) {
   .carousel img {
     display: block;
-    height: 300px !important;
+    height: 300px;
   }
   
   .carousel-cell {
-    height: 300px !important;
-  } 
-}
-
-@media (max-width: 400px) {
-  .carousel img {
-    display: block;
-    height: 200px !important;
-  }
-  
-  .carousel-cell {
-    height: 200px !important;
+    height: 300px;
   } 
 }
