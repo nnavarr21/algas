@@ -31,7 +31,26 @@
     "BEGIN":"Datan de hace más de 30 años, comenzando como empresa familiar y hoy en día destaca de manera independiente.",
 
     "HEAD_PLANT":"Nuestra planta",
-    "PLANT":"Se encuentra en La Serena, ubicación con excelente condición climática, ideal para canchas de secado natural, lo que permite obtener un resultado óptimo para el secado algas frescas. Dispone de varias líneas de picado en seco y enfarde, todo esto para obtener una granulometría y embalaje del producto según sea los requerimiento del cliente."
+    "PLANT":"Se encuentra en La Serena, ubicación con excelente condición climática, ideal para canchas de secado natural, lo que permite obtener un resultado óptimo para el secado algas frescas. Dispone de varias líneas de picado en seco y enfarde, todo esto para obtener una granulometría y embalaje del producto según sea los requerimiento del cliente.",
 
+    "HEAD_TEAM2":"Nuestro equipo",
+    "TEAM2":"Consiste en un equipo de 30 personas, compuesto por empleados permanentes y colaboradores externos, distribuidos en las regiones norte y sur de Chile. Este equipo nos suministra algas a través de nuestro sistema logístico de vehículos, lo que garantiza la entrega puntual y eficiente de nuestros productos.",
 
+    "HEAD_PROCES":"Nuestros procesos",
+    "PROCES":"El proceso comienza con la recolección de algas en ubicaciones clave y estratégicas, luego se transportan a nuestra planta donde son seleccionadas minuciosamente antes de ser enviadas a la línea de procesamiento correspondiente, que incluye las etapas de secado, limpieza, picado, enfardado y empaque.",
+
+    "HEAD_PRODUCT":"Nuestros Productos",
+    "PRODUCT2":"Gracias a nuestra estrecha colaboración con nuestros asociados, tenemos acceso a recursos de prácticamente toda la costa de nuestro país. Nuestros productos son seleccionados y envasados de acuerdo a los requisitos específicos.",
+
+    "COMPANY":"Compañia",
+    "COMPANY_DESC":"Algas del Norte tiene su sede en la región de Coquimbo, en el norte de Chile. Somos una empresa especializada en la adquisición, procesamiento y comercialización de diversos tipos de algas marinas, tanto pardas como rojas.",
+
+    "EXPERIENCE":"Experiencia",
+    "EXPERIENCE_DESC":"La experiencia acumulada a lo largo de muchos años en la industria nos convierte en expertos al momento de elegir la materia prima con las mejores características y procedencia, permitiéndonos así proporcionar a nuestros clientes productos de calidad insuperable",
+
+    "COMMITMENT":"Compromiso",
+    "COMMITMENT_DESC":"Nuestro compromiso se fundamenta en garantizar un riguroso control de calidad de las materias primas, así como en proveer de manera constante y garantizada nuestros productos a nuestros clientes",
+
+    "RESPONSABILITY":"Responsabilidad",
+    "RESPONSABILITY_DESC":"Algas del Norte es una empresa comprometida con la sostenibilidad ambiental, cumpliendo rigurosamente con las normativas nacionales vigentes. Esto nos llena de satisfacción por nuestra responsabilidad hacia los ecosistemas marinos."
 }

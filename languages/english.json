@@ -30,8 +30,28 @@
     "HEAD_BEGIN":"Our beginnings",
     "BEGIN":"They date back more than 30 years, starting as a family-owned business and now standing out independently.",
 
-    "HEAD_PLANT":"Our Plant",
-    "PLANT":"It is located in La Serena, a location with excellent weather conditions, ideal for natural drying fields, which allows us to achieve optimal results for drying fresh seaweed. It features several dry cutting and baling lines, all of this to obtain the product's granularity and packaging according to customer requirements."
+    "HEAD_PLANT":"Our plant",
+    "PLANT":"It is located in La Serena, a location with excellent weather conditions, ideal for natural drying fields, which allows us to achieve optimal results for drying fresh seaweed. It features several dry cutting and baling lines, all of this to obtain the product's granularity and packaging according to customer requirements.",
 
+    "HEAD_TEAM2":"Our team",
+    "TEAM2":"It consists of a team of 30 people, including both permanent employees and external collaborators, spread across the northern and southern regions of Chile. This team provides us with seaweed using our logistical vehicle system, ensuring timely and efficient product delivery.",
+
+    "HEAD_PROCES":"Our processes",
+    "PROCES":"The process starts with the collection of seaweed from key and strategic locations, then they are transported to our plant where they are carefully selected before being sent to the corresponding processing line, which includes the stages of drying, cleaning, chopping, baling, and packaging.",
+
+    "HEAD_PRODUCT":"Our Products",
+    "PRODUCT2":"Thanks to the close relationship with our partners, we can access resources from virtually the entire coastline of our country. Our products are selected and packaged according to specific requirements.",
+
+    "COMPANY":"Company",
+    "COMPANY_DESC":"Algas del Norte is located in the Coquimbo region, in the northern part of Chile. We are a company dedicated to the acquisition, processing, and marketing of various types of seaweed, both brown and red.",
+
+    "EXPERIENCE":"Experience",
+    "EXPERIENCE_DESC":"The experience gained over many years in the industry makes us experts when it comes to selecting raw materials with the best characteristics and origin, thereby enabling us to deliver products of unsurpassed quality to our customers.",
+
+    "COMMITMENT":"Commitment",
+    "COMMITMENT_DESC":"Our commitment is rooted in ensuring meticulous quality control of our raw materials and in providing a consistent and reliable delivery of our products to our customers.",
+
+    "RESPONSABILITY":"Responsability",
+    "RESPONSABILITY_DESC":"Algas del Norte, as a company, is committed to environmental sustainability, fully complying with established national regulations, which gives us a sense of responsibility towards marine ecosystems."
 
 }
