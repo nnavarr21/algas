@@ -13010,6 +13010,7 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 4rem;
   font-family: 'Noto Sans', sans-serif;
+  margin-top: 2.5rem;
 }
 
 @media (min-width: 768px) {

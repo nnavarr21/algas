@@ -24,5 +24,14 @@
     "CONTACT_PHONE": "Phone",
     "CONTACT_MSG": "Message",
 
-    "SEND_CONTACT": "Send Message"
+    "SEND_CONTACT": "Send Message",
+    "REQUIRED": "Required",
+
+    "HEAD_BEGIN":"Our beginnings",
+    "BEGIN":"They date back more than 30 years, starting as a family-owned business and now standing out independently.",
+
+    "HEAD_PLANT":"Our Plant",
+    "PLANT":"It is located in La Serena, a location with excellent weather conditions, ideal for natural drying fields, which allows us to achieve optimal results for drying fresh seaweed. It features several dry cutting and baling lines, all of this to obtain the product's granularity and packaging according to customer requirements."
+
+
 }

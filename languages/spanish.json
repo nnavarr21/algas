@@ -12,7 +12,7 @@
     "OUR_PRODUCTS": "Nuestros Productos",
 
     "OUR_TEAM": "Nuestro Equipo",
-    "TITLE_1": "Gerencia",
+    "TITLE_1": " Gerencia.",
     "TITLE_2": "Gerencia",
 
     "CONTACT_US": "Contacto",
@@ -24,5 +24,14 @@
     "CONTACT_PHONE": "Teléfono",
     "CONTACT_MSG": "Mensaje",
 
-    "SEND_CONTACT": "Enviar"
+    "SEND_CONTACT": "Enviar",
+    "REQUIRED": "Este campo es obligatorio",
+
+    "HEAD_BEGIN":"Nuestros comienzos",
+    "BEGIN":"Datan de hace más de 30 años, comenzando como empresa familiar y hoy en día destaca de manera independiente.",
+
+    "HEAD_PLANT":"Nuestra planta",
+    "PLANT":"Se encuentra en La Serena, ubicación con excelente condición climática, ideal para canchas de secado natural, lo que permite obtener un resultado óptimo para el secado algas frescas. Dispone de varias líneas de picado en seco y enfarde, todo esto para obtener una granulometría y embalaje del producto según sea los requerimiento del cliente."
+
+
 }
