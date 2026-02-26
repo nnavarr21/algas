@@ -1,82 +1,64 @@
+window.addEventListener('DOMContentLoaded', () => {
+    const languages = {
+        es: {},
+        en: {},
+        cn: {},
+        jp: {},
+    };
 
-
-window.addEventListener('DOMContentLoaded', event => {
-
-    var es, en, cn, jp;
-
-    async function loadLanguage(jsonFilePath) {
+    async function loadLanguage(languageCode, jsonFilePath) {
         try {
             const response = await fetch(jsonFilePath);
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                throw new Error(`Failed to load ${jsonFilePath}`);
             }
-            const data = await response.json();
-            return data; // Return the parsed JSON data
+            languages[languageCode] = await response.json();
         } catch (error) {
-            console.error('Error:', error);
-            throw error; // Re-throw the error to handle it later if needed
+            console.error(error);
         }
     }
 
-    // Example usage:
-    (async () => {
-        try {
-            const es_path = '/languages/spanish.json';
-            const en_path = '/languages/english.json';
-            const cn_path = '/languages/chinese.json';
-            const jp_path = '/languages/japanese.json';
-
-            es = await loadLanguage(es_path);
-            en = await loadLanguage(en_path);
-            cn = await loadLanguage(cn_path);
-            jp = await loadLanguage(jp_path);
-
-            // Now you can work with the parsed data
-            console.log(es, en, cn, jp);
-
-            // Other code that depends on the parsed data can go here
-        } catch (error) {
-            // Handle any errors that occurred during data loading or parsing
-            console.error('Error:', error);
-        }
-    })();
-    // Language data
-    function getLan(language) {
-        switch (language) {
-            case 'es':
-                return es;
-            case 'en':
-                return en;
-            case 'cn':
-                return cn;
-            case 'jp':
-                return jp;
-        }
+    function getLanguage(languageCode) {
+        return languages[languageCode] || {};
     }
 
-    // Function to update text based on selected language
-    function updateText(language) {
+    function updateText(languageCode) {
+        const selectedLanguage = getLanguage(languageCode);
+        const fallbackLanguage = getLanguage('es');
         const elements = document.querySelectorAll('[translate-key]');
+
         elements.forEach((element) => {
             const key = element.getAttribute('translate-key');
-            console.log(key)
-            element.textContent = getLan(language)[key] || '';
+            const value = selectedLanguage[key] || fallbackLanguage[key];
+            if (value) {
+                element.textContent = value;
+            }
         });
     }
 
-    document.getElementById('en-button').addEventListener('click', () => {
-        updateText('en');
-    });
+    function bindLanguageButton(buttonId, languageCode) {
+        const button = document.getElementById(buttonId);
+        if (!button) {
+            return;
+        }
 
-    document.getElementById('es-button').addEventListener('click', () => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            updateText(languageCode);
+        });
+    }
+
+    Promise.all([
+        loadLanguage('es', 'languages/spanish.json'),
+        loadLanguage('en', 'languages/english.json'),
+        loadLanguage('cn', 'languages/chinese.json'),
+        loadLanguage('jp', 'languages/japanese.json'),
+    ]).then(() => {
         updateText('es');
     });
 
-    document.getElementById('cn-button').addEventListener('click', () => {
-        updateText('cn');
-    });
-
-    document.getElementById('jp-button').addEventListener('click', () => {
-        updateText('jp');
-    });
+    bindLanguageButton('es-button', 'es');
+    bindLanguageButton('en-button', 'en');
+    bindLanguageButton('cn-button', 'cn');
+    bindLanguageButton('jp-button', 'jp');
 });
